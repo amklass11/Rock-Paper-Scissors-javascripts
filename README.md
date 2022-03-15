@@ -1,1 +1,1 @@
-# Rock-Paper-Scissors-javascripts
+# Rock-Paper-Scissors-javascript
