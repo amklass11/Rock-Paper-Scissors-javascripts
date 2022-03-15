@@ -5,7 +5,9 @@ function computerPlay(choice) {
     console.log(randomItem);
 
 };
+
 function playRound(playerSelection,computerSelection) {
+    
 
     if (playerSelection === 'rock'&&computerSelection === 'paper') 
     {
@@ -33,12 +35,7 @@ function playRound(playerSelection,computerSelection) {
 }
     
 
-const playerSelection = 'paper';
+
 const computerSelection = computerPlay();
-console.log(playRound(playerSelection, computerSelection));
-console.log(computerSelection);
-
-console.log(playerSelection)
-console.log(playRound('rock','paper'));
-
+return playRound();
 
